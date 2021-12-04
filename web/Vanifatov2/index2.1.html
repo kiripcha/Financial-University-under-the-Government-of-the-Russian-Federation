@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<script>
+    let guessed = 0;
+    let firstAnswer = prompt('Зимой и летом одним цветом.');
+    if (firstAnswer == 'Елка') {
+        alert('Верно!');
+        guessed++;
+    } else {
+        alert('Не верно!');
+    }
+    let secondAnswer = prompt('Два конца, два кольца, посредине гвоздик.');
+    if (secondAnswer == 'Ножницы') {
+        alert('Верно!');
+        guessed++;
+    } else {
+        alert('Не верно!');
+    }
+    alert('Вы отгадали: ' + guessed)
+</script>
