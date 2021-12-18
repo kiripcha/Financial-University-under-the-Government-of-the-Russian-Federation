@@ -1,0 +1,43 @@
+<meta charset="UTF-8">
+<script>
+    function Order(name, date, size, owner) {
+    this.name = name;
+    this.date = date;
+    this.size = size;
+    this.owner = owner;
+    }
+
+    let order1 = new Order("kk", 23, "big", "Kirill");
+    let order2 = new Order("oo", 14, "small", "Oleg");
+
+    function User(name, age, salary) {
+    this.name = name;
+    this.age = age;
+    this.salary = salary;
+    }
+
+    let user1 = new User("Kirill", 23, 40000);
+    let user2 = new User("Oleg", 33, 30000);
+
+    function Restaurant(name, capacity) {
+    this.name = name;
+    this.capacity = capacity;
+    }
+
+    let rest1 = new Restaurant("Praga", 230);
+    let rest2 = new Restaurant("Berlin", 140);
+
+    if (user1.name == "Kirill") {
+        alert(user1.salary + ", " + user1.age)
+    } else {
+        alert(user2.salary + ", " + user2.age)
+    }
+
+    if (order1.owner == user1.name) {
+        alert("Заказ " + order1.name + " принадлежит " + user1.name)
+    } else if (order1.owner == user2.name) {
+        alert("Заказ " + order1.name + " принадлежит " + user2.name)
+    } else {
+        alert("Заказ " + order1.name + " не принадлежит никому")
+    }
+</script>
