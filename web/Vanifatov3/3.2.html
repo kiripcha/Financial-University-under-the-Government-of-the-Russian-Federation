@@ -1,0 +1,42 @@
+<meta charset="UTF-8">
+<script>
+    // создаем массив случайных чисел от -10 до 10
+    let arr = [];
+    let min = -10;
+    let max = 10;
+    // получаем на вход n
+    let n = +prompt('Введите n: ');
+    for (let i = 0; i < n; i++) {
+        let element = Math.round(Math.random() * (max - min) + min);
+        arr.push(element);
+    }
+
+    alert(arr);
+    // задаем необходимые переменные
+    let otric = 0;
+    let otricSum = 0;
+    let poloj = 0;
+    let polojSum = 0;
+    let nyli = 0;
+
+    // блок поэлементной проверки массива
+    for (let i = 0; i < n; i++) {
+        let element = arr[i]
+        if (element < 0) {
+            arr[i] = element * element;
+            otric++;
+            otricSum += element;
+        } else if (element > 0) {
+            poloj++;
+            polojSum += element;
+        } else {
+            nyli++;
+        }
+    }
+
+    // вывод результатов
+    alert('Ср. арифм. положительных: ' + (polojSum / poloj))
+    alert('Ср. арифм. отрицательных: ' + (otricSum / otric))
+    alert('Нулей: ' + nyli)
+    alert('Измененный массив: ' + arr);
+</script>

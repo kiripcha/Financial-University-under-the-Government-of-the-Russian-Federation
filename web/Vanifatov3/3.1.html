@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<script>
+    let arr = [];
+    let min = -10;
+    let max = 30;
+    let count = 0;
+    let sum = 0;
+    for (let i = 0; i < 16; i++) {
+        arr.push(Math.floor(Math.random() * (max - min + 1) ) + min);
+        if (arr[i] > 0) {
+        count++;
+        sum += arr[i];
+        }
+    }
+    let result = sum/count;
+    alert(arr)
+    alert('Среднее значение положительных чисел: ' + result)
+</script>
