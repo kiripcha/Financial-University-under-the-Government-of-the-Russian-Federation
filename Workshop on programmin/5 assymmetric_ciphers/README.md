@@ -43,12 +43,10 @@ csv файл с ключами сервера
 Также можно увидеть в коде, и сервер и клиент выводят сообщени о подключении к конкретному порту.
 Изначально сервер подключился на порте 10101
 
-![image](https://user-images.githubusercontent.com/58771506/143403841-ae735545-5e4c-4134-9883-71ae574ee61e.png)
-
 После подключения клиента они переключились на новый (рандомный) порт и продолжают общение на нем
 
-![image](https://user-images.githubusercontent.com/58771506/143403937-6a09172e-c151-4d62-a873-7fb18709d689.png)
+![image](https://user-images.githubusercontent.com/70681104/146679673-d555a283-5779-4756-aed3-556a86378521.png)
 
-![image](https://user-images.githubusercontent.com/58771506/143404003-073b7d7d-5269-4717-9295-5a58a5c0fbf4.png)
+![image](https://user-images.githubusercontent.com/70681104/146679686-ec72f97d-ad21-4f6f-b89a-ccc1cc22895a.png)
 
 Модифицируйте код FTP-сервера таким образом, чтобы он поддерживал шифрование.
