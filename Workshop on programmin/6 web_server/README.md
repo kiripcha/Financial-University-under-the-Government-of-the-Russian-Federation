@@ -40,14 +40,12 @@
 
 Вся работа с подключением выведена в отдельный поток. Например открыть одновременно 2 вкладки.
 
-![image](https://user-images.githubusercontent.com/58771506/143503797-9706ac64-a8f4-47a6-a661-56208e342466.png)
-
-![image](https://user-images.githubusercontent.com/58771506/143503824-5922a28c-f846-4d62-a141-fc5839725ebe.png)
+![image](https://user-images.githubusercontent.com/70681104/146680819-843235ff-01fc-44af-a138-7fecb19cfc30.png)
 
 8. Сервер должен вести логи в следующем формате: Дата запроса. IP-адрес клиента, имя запрошенного файла, код ошибки.
 В файле log.txt в корне сервера
 
-![image](https://user-images.githubusercontent.com/58771506/143503853-37d3a395-cd85-4b7b-b5b7-2e20e367784b.png)
+![image](https://user-images.githubusercontent.com/70681104/146681077-491550ef-21d8-4549-b522-90b9b7299490.png)
 
 10. Добавьте возможность запрашивать только определенные типы файлов (.html, .css, .js и так далее). При запросе неразрешенного типа, верните ошибку 403.
 
@@ -58,12 +56,5 @@
 ![image](https://user-images.githubusercontent.com/58771506/143503905-045a6d92-9a3a-4d78-aa7e-2a8c96c097af.png)
 
 14. Реализуйте поддержку бинарных типов данных, в частночти, картинок.
-
-![image](https://user-images.githubusercontent.com/58771506/143503928-8cea448a-f76a-4e2d-974f-eab0def89e45.png)
-
-![image](https://user-images.githubusercontent.com/58771506/143503946-dfe81205-07c6-4584-aa4c-b69f3bc2957a.png)
-
-![image](https://user-images.githubusercontent.com/58771506/143503965-d5070b9f-ea52-4e00-bbdc-0db42868c05e.png)
-
 
 <!-- Docs to Markdown version 1.0β17 -->
