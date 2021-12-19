@@ -18,26 +18,27 @@
     5. Connection: close.
 ФОрмат ответа из кода, который включает все заголовки указанные в задании. (connection: close было изменено для 7 задания)
 
-![image](https://user-images.githubusercontent.com/58771506/143503516-0ba56cd0-7bc0-4822-9bef-ef13e1bc4d35.png)
+![image](https://user-images.githubusercontent.com/70681104/146679801-5e35c2e6-cff3-4a82-82af-4e8074553979.png)
 
 
 2. Создайте файл настроек вашего веб-сервера, в котором можно задать прослушиваемый порт, рабочую директорию, максимальный объем запроса в байтах. Можете добавить собственные настройки по желанию.
 Файл настроек в формате JSON
 
-![image](https://user-images.githubusercontent.com/58771506/143503584-dcb02c29-acf4-48b1-9001-576f6f587a9c.png)
+![image](https://user-images.githubusercontent.com/70681104/146679841-ad087742-841b-4564-b057-b70a7b361099.png)
 
-![image](https://user-images.githubusercontent.com/58771506/143503592-213c534b-18ef-49eb-b20e-75bb03542a13.png)
+![image](https://user-images.githubusercontent.com/70681104/146679895-a070955b-7f17-4e2c-94b5-66eb082f34ee.png)
 
 4. Если файл не найден, сервер передает в сокет специальный код ошибки - 404.
 
 ![image](https://user-images.githubusercontent.com/58771506/143503718-538a82eb-4cc2-48c2-8c7a-aeee775c1ce6.png)
 
 Ошибка 404 так как такого файла нет
+
 6. Сервер должен работать в многопоточном режиме.
 
-![image](https://user-images.githubusercontent.com/58771506/143503736-a589f98d-78ea-4cfa-9d30-3267809f7791.png)
+![image](https://user-images.githubusercontent.com/70681104/146679956-05bf454d-9218-4015-ac83-8da812b5e93c.png)
 
-Вся работа с подключением выведена в отдельный поток. Например две вкладки одновременно открыты
+Вся работа с подключением выведена в отдельный поток. Например открыть одновременно 2 вкладки.
 
 ![image](https://user-images.githubusercontent.com/58771506/143503797-9706ac64-a8f4-47a6-a661-56208e342466.png)
 
