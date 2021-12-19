@@ -25,9 +25,13 @@ csv файл с ключами сервера
 
 Можно увидеть в коде
 
-![image](https://user-images.githubusercontent.com/58771506/143403397-2e996157-4e55-445d-841e-81ad223df55e.png)
+![image](https://user-images.githubusercontent.com/70681104/146679001-cfa81f7c-a032-43c8-8a3f-e1650ee337f5.png)
 
-![image](https://user-images.githubusercontent.com/58771506/143403421-ebffc94d-6b08-48ed-9fed-70b8362d64f1.png)
+![image](https://user-images.githubusercontent.com/70681104/146679018-4bfaeb9b-781e-44e6-8fe5-413fb35b28fb.png)
+
+![image](https://user-images.githubusercontent.com/70681104/146679032-e695697d-2fc0-43a9-8bfe-5df33df736df.png)
+
+![image](https://user-images.githubusercontent.com/70681104/146679040-dc5a1bdd-b67f-4a66-bebb-b3d17d2600b1.png)
 
 Реализуйте на сервере проверку входящих сертификатов. На сервере должен храниться список разрешенных ключей. Когда клиент посылает на сервер свой публичный ключ, сервер ищет его среди разрешенных и, если такого не находит, разрывает соединение. Проверьте правильность работы не нескольких разных клиентах.
 Важно! данный пункт предполагает, что ключи уже существуют, поэтому в репозитории приложены файлы с уже созданными ключами.
