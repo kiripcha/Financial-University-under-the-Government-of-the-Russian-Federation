@@ -13,28 +13,23 @@
 
 Пароль хранится в хешированном виде (с солью)
 
-![image](https://user-images.githubusercontent.com/58771506/143765497-6d0aafa3-da0a-4413-96b9-1b86148a7591.png)
+![image](https://user-images.githubusercontent.com/70681104/146696133-1562f871-27de-4180-afbb-cb16e0c54b64.png)
 
 Информация по пользователям хранится в виде коллекций с помощью модуля pickle
-
-![image](https://user-images.githubusercontent.com/58771506/143765511-719f1724-fa9e-4101-a04d-0ee6b6b360b0.png)
+![image](https://user-images.githubusercontent.com/70681104/146696163-e7a9567b-4074-4e58-a286-1a88ad59cce9.png)
 
 Все данные принимаются и отдаются в формате .JSON
 
-![image](https://user-images.githubusercontent.com/58771506/143765535-2660a42f-c283-493b-975c-da13ec7beb82.png)
+![image](https://user-images.githubusercontent.com/70681104/146696459-87f0307a-2686-44c0-9847-73ff63dca728.png)
 
-Например зарегистрировали и попробуем залогиниться
+Попробуем залогиниться с неправльным паролем
 
-![image](https://user-images.githubusercontent.com/58771506/143765561-981c0461-2b6e-421e-b3fc-b967aae2980b.png)
-
-Попробуем залогиниться с невалидным паролем
-
-![image](https://user-images.githubusercontent.com/58771506/143765576-5679c9c8-15b6-46ef-b89d-24b59a830984.png)
+![image](https://user-images.githubusercontent.com/70681104/146696605-57b0354c-b04a-4bed-afbb-bbe0734287b8.png)
 
 (для теста в сообщениях указываем конкретно в чем ошибка, на самом деле при ответе нельзя указывать, что неверный именно пароль)
 1. Настройте веб-сервер по Вашему выбору (Apache2 или nginx) таким образом, чтобы он поддерживал соединение по протоколу HTTPS. Для этого сгенирируйте самоподписанный сертификат SSL. 
 Был сгенерирован самоподписанный ssl
 
-![image](https://user-images.githubusercontent.com/58771506/143765442-ae39e898-7fe3-4037-abe8-362c09a62ef6.png)
+![image](https://user-images.githubusercontent.com/70681104/146697448-88c5f34b-2de5-43bd-bba3-31c46714fa05.png)
 
 1. Модифицируйте код вашего сервиса таким образом, чтобы он поддерживал защищенное соединение.
