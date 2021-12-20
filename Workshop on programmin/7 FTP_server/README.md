@@ -1,8 +1,9 @@
 ### Основные задания:
 
-1. Посмотреть содержимое папки; Верхнее окно - клиент, нижнее - сервер.
+1. Посмотреть содержимое папки
+![image](https://user-images.githubusercontent.com/70681104/146691737-94bfc99d-49d2-4453-b82e-c75345d2e3d9.png)
+![image](https://user-images.githubusercontent.com/70681104/146691749-6d051ae5-6cb8-4072-907c-f46f697a155e.png)
 
-![image](https://user-images.githubusercontent.com/58771506/143278733-ca502362-9c99-41d8-90d9-bf65a5e524a7.png)
 
 
 3. Создать папку;
@@ -10,48 +11,36 @@
 ![image](https://user-images.githubusercontent.com/58771506/143278733-ca502362-9c99-41d8-90d9-bf65a5e524a7.png)
 
 Домашняя папка пользователя
-
-![image](https://user-images.githubusercontent.com/58771506/143279081-d15fc8f0-03a9-42aa-b20a-d56e45094df5.png)
-
 В ней созданная нами
 
-![image](https://user-images.githubusercontent.com/58771506/143279162-8fab599b-d49f-44ff-a5c5-8ed241c77d0c.png)
-
+![image](https://user-images.githubusercontent.com/70681104/146691776-1b11ae19-3fdb-4c97-bcc6-8ec40a68f44e.png)
 
 5. Удалить папку;
 
-![image](https://user-images.githubusercontent.com/58771506/143279248-c35c6161-b522-485c-8f6a-987b66005fd0.png)
+![image](https://user-images.githubusercontent.com/70681104/146691804-527c9c73-72e4-4ec5-9a9e-fd16bc044a92.png)
 
-![image](https://user-images.githubusercontent.com/58771506/143279268-6a108cb2-7b9a-4189-b1e2-037f296409ce.png)
+![image](https://user-images.githubusercontent.com/70681104/146691808-85f5e5c5-99ca-4d5c-91d4-e03c60535874.png)
+
+![image](https://user-images.githubusercontent.com/70681104/146691828-0b8d6f49-07b4-4af3-bea0-3a831cc9baa4.png)
 
 
 7. Удалить файл; Создание и переименование далее
-9. Переименовать файл;
+8. Переименовать файл;
 
-![image](https://user-images.githubusercontent.com/58771506/143279466-d6536e3c-109a-4aba-ba34-11e489116321.png)
+![image](https://user-images.githubusercontent.com/70681104/146691884-56fb115e-cd9a-44e8-baab-6d699f3dab14.png)
 
-![image](https://user-images.githubusercontent.com/58771506/143279521-43e773dc-7fa0-4d67-9ed0-e572326188dd.png)
+![image](https://user-images.githubusercontent.com/70681104/146691893-1182d00c-8013-4dee-abe0-bb5c79873f93.png)
 
-![image](https://user-images.githubusercontent.com/58771506/143279637-fd9c5da6-e268-4e40-afb0-e1b17b3fcbd0.png)
-
-![image](https://user-images.githubusercontent.com/58771506/143279653-6e81379c-f42a-40d7-a180-3974e6139d16.png)
+![image](https://user-images.githubusercontent.com/70681104/146691901-94e40fe4-452a-434b-801f-62fe8af2d911.png)
 
 
 11. Скопировать файл с клиента на сервер;
 
-![image](https://user-images.githubusercontent.com/58771506/143281797-bf00c940-85fe-42e3-bc9e-236da04b514c.png)
+![image](https://user-images.githubusercontent.com/70681104/146695827-e234b26a-4676-4cdb-9aa7-314b6242748b.png)
 
-![image](https://user-images.githubusercontent.com/58771506/143281838-36bd8161-5c49-4ae9-a852-e4a55611a862.png)
+![image](https://user-images.githubusercontent.com/70681104/146695833-a8c9080f-b7e1-4671-949d-839eef5b1924.png)
 
 13. Скопировать файл с сервера на клиент;
-
-![image](https://user-images.githubusercontent.com/58771506/143279805-40ea5f4d-357f-470b-b118-1a0f2f8c56db.png)
-
-Клиент запущен в корневой директории сервера поэтому получается, что скопировали в рабобую директорию клиент, которая
-является и рабочей директорией сервера
-
-![image](https://user-images.githubusercontent.com/58771506/143279902-3fe7f8f6-c3c3-4dad-9957-9184419996c0.png)
-
 
 15. Выход (отключение клиента от сервера);
 
@@ -63,41 +52,30 @@
 1. Ограничьте возможности пользователя рамками одной определенной директории. Внутри нее он может делать все, что хочет: создавать и удалять любые файлы и папки. Нужно проследить, чтобы пользователь не мог совершить никаких действий вне пределов этой директории. Пользователь, в идеале, вообще не должен догадываться, что за пределами этой директории что-то есть.
 Как видно было из предыдщуих скринов выйти за пределы папки - корня не может, а это рабочая папка пользователя у admin эта папка - корень сервера.
 
-![image](https://user-images.githubusercontent.com/58771506/143286311-932293b6-9718-41fe-ba10-49ba2fc54475.png)
+![image](https://user-images.githubusercontent.com/70681104/146695922-03405f76-320a-41c5-8488-dfeca0207b7b.png)
+
+![image](https://user-images.githubusercontent.com/70681104/146695930-653d263a-431b-45d5-9081-dd293ba46975.png)
 
 3. Добавьте логирование всех действий сервера в файл. Можете использовать разные файлы для разных действий, например: подключения, авторизации, операции с файлами.
 Логи пишутся в файл корень сервера log.txt
 
-![image](https://user-images.githubusercontent.com/58771506/143286974-7088ca26-c8b2-4526-b20f-fd78e9907d0a.png)
-
-![image](https://user-images.githubusercontent.com/58771506/143287004-b083ef0a-7d48-4810-9d90-fcc469072b8a.png)
+![image](https://user-images.githubusercontent.com/70681104/146695955-ce54a894-39f5-47c0-b939-c1263cc1b5d3.png)
 
 
 5. Добавьте возможность авторизации пользователя на сервере.
 Можно увидеть на каждом скриншоте.
-7. Добавьте возможность регистрации новых пользователей на сервере. При регистрации для пользователя создается новая рабочая папка (проще всего для ее имени использовать логин пользователя) и сфера деятельности этого пользователя ограничивается этой папкой.
+6. Добавьте возможность регистрации новых пользователей на сервере. При регистрации для пользователя создается новая рабочая папка (проще всего для ее имени использовать логин пользователя) и сфера деятельности этого пользователя ограничивается этой папкой.
 пользоваталь вводит логин пароль, если такой пользователь не существует - то создается, если существует, то проверяется корректность введенных данных.
+![image](https://user-images.githubusercontent.com/70681104/146695995-d5f03a65-d747-4e5a-8c6b-c907c7e15827.png)
+![image](https://user-images.githubusercontent.com/70681104/146696003-6e70cedc-df5b-4fd9-b52f-e0baee0f1d78.png)
 
-![image](https://user-images.githubusercontent.com/58771506/143287386-934ca2c5-162b-491c-876f-d462a70948e5.png)
 
 Неудачная авторизация
 9. Реализуете квотирование дискового пространства для каждого пользователя.
-По 10Мб на пользователя, пример неудачной попытки:
-
-![image](https://user-images.githubusercontent.com/58771506/143287594-698a4108-f4b4-4aa5-845e-460ac42cd3b8.png)
-
-Папка весит уже почти 9Мб. попытаемся переместить в нее файл 3 Мб
-
-![image](https://user-images.githubusercontent.com/58771506/143287645-6c26f5cc-531a-43e3-9e85-0f136c7b2cd4.png)
-
-![image](https://user-images.githubusercontent.com/58771506/143287880-2b079fc9-8ca1-45c0-8fdf-acf4885dd186.png)
 
 
 11. Реализуйте учётную запись администратора сервера.
 
 log/pass =  admin/admin, рабочая директория - рабочая директория сервера, то есть папка с папками пользователя
 13. Напишите отладочный клиент. Клиент должен подключаться к серверу и в автоматическом режиме тестировать корректность его работы. Используйте подход, аналогичный написанию модульных тестов. Клиент должен вывести предупреждающее сообщение, если сервер работает некорректно. 
-файл ftp-test-client log/pass = test/test
-
-![image](https://user-images.githubusercontent.com/58771506/143288097-587184b4-ae19-4e63-a1be-3a5b78ff21a1.png)
 
